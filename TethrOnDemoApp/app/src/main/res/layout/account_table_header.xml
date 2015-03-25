@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="@color/primary_dark_material_dark"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/tv_name"
+        android:layout_weight="0.5"
+        android:textColor="#d3d3d3"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Account Id"
+        android:id="@+id/tv_id"
+        android:layout_weight="0.25"
+        android:textColor="#d3d3d3" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Site"
+        android:id="@+id/tv_type"
+        android:layout_weight="0.25"
+        android:textColor="#d3d3d3" />
+</TableRow>

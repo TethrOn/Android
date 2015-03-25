@@ -1,0 +1,24 @@
+{
+    "maxDbProcThreads": 2,
+    "amdcBackends": {
+        "SFDC": {
+            "backendSource": "SFDC",
+            "code": "SalesforcePassword"
+        }
+    },
+    "adminSettings": {},
+    "applicationID": "Default Application",
+    "SYNC_PERIOD": 0,
+    "lastSyncDate": 0,
+    "maxallowedattachmentspace": 2147483648,
+    "maxAttachmentSize": 5,
+    "maxHTTPConnections": 2,
+    "maxHTTPAttempts": 3,
+    "httpDefTimeout": 60,
+    "baseUrl": "http://tethron.company.com",
+    "urlPort": "80",
+    "defaultBackend": "SFDC",
+    "disableAMDCExceptionHandler": false,
+    "amdcUserName": "User1",
+    "amdcUserPwd": "User1"
+}

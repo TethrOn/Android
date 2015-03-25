@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TethrOn Demo Application</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="home_title">Home</string>
+    <string name="sync_title">Synchronize</string>
+    <string name="list_title">View Accounts</string>
+    <string name="edit_title">Edit Account</string>
+    <string name="settings_title">Edit Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="starting_sync">Starting Sync Process</string>
+    <string name="registration_failed">Device registration failed. Please check your server configuration/credentials.</string>
+    <string name="preparing_sync">Preparing Synchronization...</string>
+    <string name="downloading_parts">Downloading Sync Data...</string>
+    <string name="applying_parts">Applying Sync Data...</string>
+    <string name="sync_completed">Synchronization Completed.</string>
+    <string name="upgrading_CDM">Upgrading CDM.</string>
+    <string name="cdm_upgrade_completed">CDM Upgrade completed; Kicking off initial sync.</string>
+    <string name="settings_saved">Settings saved.</string>
+    <string name="settings_reset">Settings reset to original values.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

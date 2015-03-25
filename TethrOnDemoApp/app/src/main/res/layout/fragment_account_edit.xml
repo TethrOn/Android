@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Edit Account"
+        android:id="@+id/ae_topLabel"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        />
+
+    <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="2dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Account Name"
+                android:id="@+id/ae_name"
+                android:layout_column="0"
+                android:layout_weight="0.5"
+                android:padding="15dp"/>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/ae_et_name"
+                android:layout_column="1"
+                android:layout_weight="0.5"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:background="@drawable/edit_text_style"
+                android:singleLine="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Site"
+                android:id="@+id/ae_site"
+                android:layout_column="0"
+                android:padding="15dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/ae_et_site"
+                android:layout_column="1"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:background="@drawable/edit_text_style"
+                android:singleLine="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="city"
+                android:id="@+id/ae_city"
+                android:layout_column="0"
+                android:padding="15dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/ae_et_city"
+                android:layout_column="1"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:background="@drawable/edit_text_style"
+                android:singleLine="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="state"
+                android:id="@+id/ae_state"
+                android:layout_column="0"
+                android:padding="15dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/ae_et_state"
+                android:layout_column="1"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:background="@drawable/edit_text_style"
+                android:singleLine="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Phone Number"
+                android:id="@+id/ae_phoneNumber"
+                android:layout_column="0"
+                android:padding="15dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/ae_et_phoneNumber"
+                android:layout_column="1"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:background="@drawable/edit_text_style"
+                android:singleLine="true" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Record"
+        android:id="@+id/ae_button_save"
+        android:onClick="saveAccountRecord"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/ae_button_cancel"
+        android:onClick="cancelSave" />
+    </LinearLayout>
+
+</LinearLayout>

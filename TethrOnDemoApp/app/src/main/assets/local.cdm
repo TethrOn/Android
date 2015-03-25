@@ -1,0 +1,445 @@
+[
+    {
+        "type": "changelog",
+        "attachment": false,
+        "parentFields": null,
+        "fields": [
+            {
+                "name": "AMDCCreated",
+                "length": "8",
+                "type": "dateTime",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "AMDCUpdated",
+                "length": "8",
+                "type": "dateTime",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "type",
+                "length": "50",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "operationType",
+                "length": "50",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": false,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "data",
+                "length": "8",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": false,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "status",
+                "length": "50",
+                "type": "int",
+                "nullable": true,
+                "readOnly": false,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "objId",
+                "length": "50",
+                "type": "int",
+                "nullable": true,
+                "readOnly": false,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "serverId",
+                "length": "50",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": false,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            }
+        ]
+    },
+    {
+        "type": "conflictlog",
+        "attachment": false,
+        "parentFields": null,
+        "fields": [
+            {
+                "name": "data",
+                "length": "50",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "AMDCCreated",
+                "length": "8",
+                "type": "dateTime",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "AMDCUpdated",
+                "length": "8",
+                "type": "dateTime",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "serverId",
+                "length": "50",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "errorMessage",
+                "length": "50",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            }
+        ]
+    },
+    {
+        "type": "localstates",
+        "attachment": false,
+        "parentFields": null,
+        "fields": [
+            {
+                "name": "amdc_ls_created",
+                "length": "8",
+                "type": "dateTime",
+                "nullable": false,
+                "readOnly": false,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "amdc_ls_updated",
+                "length": "8",
+                "type": "dateTime",
+                "nullable": false,
+                "readOnly": false,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "amdc_ls_type",
+                "length": "50",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "amdc_ls_localid",
+                "length": "50",
+                "type": "int",
+                "nullable": false,
+                "readOnly": false,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "amdc_ls_flags",
+                "length": "50",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "amdc_ls_localstate",
+                "length": "50",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "amdc_ls_extdata",
+                "length": "50",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            }
+        ]
+    },
+    {
+        "type": "systemlog",
+        "attachment": false,
+        "parentFields": null,
+        "fields": [
+            {
+                "name": "objId",
+                "length": "8",
+                "type": "int",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "type",
+                "length": "100",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "source",
+                "length": "100",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "data",
+                "length": "4096",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "AMDCCreated",
+                "length": "8",
+                "type": "dateTime",
+                "nullable": false,
+                "readOnly": false,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "AMDCUpdated",
+                "length": "8",
+                "type": "dateTime",
+                "nullable": false,
+                "readOnly": false,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "code",
+                "length": "8",
+                "type": "int",
+                "nullable": true,
+                "readOnly": false,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "message",
+                "length": "100",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": false,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "level",
+                "length": "8",
+                "type": "int",
+                "nullable": true,
+                "readOnly": false,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            }
+        ]
+    },
+    {
+        "type": "usagelog",
+        "attachment": false,
+        "parentFields": null,
+        "fields": [
+            {
+                "name": "AMDCCreated",
+                "length": "10",
+                "type": "dateTime",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "AMDCUpdated",
+                "length": "10",
+                "type": "dateTime",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "message",
+                "length": "100",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "logType",
+                "length": "100",
+                "type": "varchar",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            },
+            {
+                "name": "messageMetric",
+                "length": "8",
+                "type": "int",
+                "nullable": true,
+                "readOnly": true,
+                "statemodel": false,
+                "identifier": false,
+                "parentType": null,
+                "contentType": null,
+                "parent": false
+            }
+        ]
+    }
+]
